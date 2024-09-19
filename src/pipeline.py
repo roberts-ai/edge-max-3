@@ -3,6 +3,7 @@ from PIL.Image import Image
 from diffusers import StableDiffusionXLPipeline
 from pipelines.models import TextToImageRequest
 from torch import Generator
+from diffusers import AutoencoderKL
 
 
 def load_pipeline() -> StableDiffusionXLPipeline:
